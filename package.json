@@ -1,26 +1,34 @@
 {
-  "name": "OAuthProject",
-  "version": "0.0.0",
+  "name": "oauth-demo",
+  "version": "1.0.0",
   "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kr1an/OAuth-Demo.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kr1an/OAuth-Demo/issues"
+  },
+  "homepage": "https://github.com/Kr1an/OAuth-Demo#readme",
   "dependencies": {
-    "express": "~4.12.3",
-    "morgan": "~1.5.2",
+    "bcrypt": "^1.0.2",
+    "body-parser": "latest",
+    "connect-flash": "^0.1.1",
     "cookie-parser": "latest",
+    "ejs": "latest",
+    "express": "^4.15.2",
     "express-session": "latest",
     "mongoose": "latest",
-    "ejs": "latest",
-    "body-parser": "latest",
-    "passport": "~0.2.1",
-    "passport-local": "~1.0.0",
-    "connect-flash": "~0.1.1",
-    "bcrypt": "~0.8.1",
-    "passport-facebook": "~2.0.0",
-    "passport-google-oauth": "~0.2.0"
+    "morgan": "^1.8.1",
+    "nodemon": "^1.11.0",
+    "passport": "^0.3.2",
+    "passport-facebook": "^2.1.1",
+    "passport-local": "^1.0.0"
   }
 }

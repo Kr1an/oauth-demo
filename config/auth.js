@@ -1,13 +1,7 @@
 module.exports = {
-	'facebookAuth' : {
-		'clientID': 'enter client id here',
-		'clientSecret': 'enter client secret here',
-		'callbackURL': 'enter callback here'
-	},
-
-	'googleAuth' : {
-		'clientID': 'enter client id here',
-		'clientSecret': 'enter client secret here',
-		'callbackURL': 'enter callback here'
-	}
+    'facebookAuth': {
+        'clientId': '189929858179974',
+        'clientSecret': '636faa72d24bfb686589e7236dfc1413',
+        'callbackURL': 'http://localhost:8080/auth/facebook/callback'
+    }
 }
